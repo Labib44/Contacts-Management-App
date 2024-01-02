@@ -1,15 +1,17 @@
 
+import { RouterProvider } from 'react-router-dom'
 import './App.css'
+import routers from './routes/Router/Router'
+import { Toaster } from 'react-hot-toast'
 
 function App() {
 
 
   return (
-    <>
-      <div>
-        <h1 className='text-4xl text-red-400'>project setup done</h1>
-      </div>
-    </>
+    <div className='container mx-auto'>
+      <RouterProvider router={routers}></RouterProvider>
+      <Toaster></Toaster>
+    </div>
   )
 }
 
