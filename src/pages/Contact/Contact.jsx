@@ -24,7 +24,7 @@ const Contact = () => {
             // userId: "645675e5233f4bd047ae8bc8",
         };
         console.log('data.....', addData);
-        fetch(`${import.meta.env.VITE_SERVER_URI}/blogs`, {
+        fetch(`${import.meta.env.VITE_SERVER_URI}/contact`, {
             method: "POST",
             headers: {
                 "content-type": "application/json",

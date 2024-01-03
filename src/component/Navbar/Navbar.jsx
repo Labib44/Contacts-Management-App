@@ -9,7 +9,8 @@ const Navbar = () => {
 
     const menuItem = <>
         <li className="flex"><Link to="/addcontact" className='flex items-center text-xl text-gray-600 font-semibold mr-5 hover:text-sky-500 duration-500 pt-5 lg:pt-5 md:mt-0'>Add Contact</Link></li>
-        <li className="flex"><Link to="/" className='flex items-center text-xl text-gray-600 font-semibold mr-5 hover:text-sky-500 duration-500 pt-5 lg:pt-5 md:mt-0'>All Contacts</Link></li>
+        <li className="flex"><Link to="/allcontacts" className='flex items-center text-xl text-gray-600 font-semibold mr-5 hover:text-sky-500 duration-500 pt-5 lg:pt-5 md:mt-0'>All Contacts</Link></li>
+        <li className="flex"><Link to="/favourite" className='flex items-center text-xl text-gray-600 font-semibold mr-5 hover:text-sky-500 duration-500 pt-5 lg:pt-5 md:mt-0'>My Favourite</Link></li>
 
     </>
 
