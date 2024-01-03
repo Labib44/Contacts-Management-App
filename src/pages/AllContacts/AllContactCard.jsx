@@ -79,7 +79,7 @@ const AllContactCard = ({ contact, refetch }) => {
 
                 </div>
                 <div className="flex justify-center pt-2 space-x-4 align-center">
-                    <label onClick={() => setUpdateContact(contact)} htmlFor="update-modal" className="btn btn-ghost btn-xs">Update</label>
+                    <label  htmlFor="update-modal" className="btn btn-ghost btn-xs">Update</label>
                     <label onClick={() => setDeletingContact(contact)} htmlFor="confirm-modal" className="btn btn-ghost btn-xs">Delete</label>
                     <label onClick={() => handleFavourites(contact)} htmlFor="confirm-modal" className="btn btn-ghost btn-xs"><Icon icon="uil:heart" className='text-2xl text-red-600' /></label>
                 </div>

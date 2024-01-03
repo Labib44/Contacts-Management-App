@@ -5,23 +5,23 @@ import Contact from "../../pages/Contact/Contact";
 import AllContacts from "../../pages/AllContacts/AllContacts";
 import Favourites from "../../pages/AddFavourites/Favourites";
 
-const routers=createBrowserRouter([
+const routers = createBrowserRouter([
     {
-        path:'/', element:<MainLayout></MainLayout>,
-        children:[
+        path: '/', element: <MainLayout></MainLayout>,
+        children: [
             {
-                path:'/', element:<Home></Home>
+                path: '/', element: <Home></Home>
             },
             {
-                path:'/addcontact', element:<Contact></Contact>
+                path: '/addcontact', element: <Contact></Contact>
             },
             {
-                path:'/allcontacts', element:<AllContacts></AllContacts>
+                path: '/allcontacts', element: <AllContacts></AllContacts>
             },
             {
-                path:'/favourite', element:<Favourites></Favourites>
+                path: '/favourite', element: <Favourites></Favourites>
             },
-           
+
         ]
     }
 ])

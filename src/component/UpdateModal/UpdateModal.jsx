@@ -26,10 +26,9 @@ const UpdateModal = ({ title, closeModal, modalData, }) => {
                     </div>
 
                     <form className='grid grid-cols-1 gap-5 p-5'>
-                        <input name='email' type="email" placeholder="Email" readOnly className="input input-bordered input-info w-full" />
-                        <input name='phnNumber' type="text" placeholder="Phone number" className="input input-bordered input-info w-full " />
-                        <input name='phnNumber' type="text" placeholder="Address" className="input input-bordered input-info w-full " />
-
+                        <input name='email' type="email" placeholder="Email" readOnly className="input input-bordered input-info w-full"/>
+                        <input name='phnNumber' type="text" placeholder="Phone number" className="input input-bordered input-info w-full "/>
+                        <input name='phnNumber' type="text" placeholder="Address" className="input input-bordered input-info w-full "/>
 
                         <label htmlFor="update-modal" className="btn btn-info text-white">Update</label>
 

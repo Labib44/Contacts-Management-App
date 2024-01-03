@@ -38,6 +38,7 @@ const Contact = () => {
                 setImgUrl("");
             });
     };
+
     return (
         <form
             action=""
@@ -106,7 +107,6 @@ const Contact = () => {
                     />
                 </div>
             </div>
-
 
             <button
                 className="bg-info w-24 rounded-2xl text-white focus:outline-none font-semibold py-4 my-4 text-center"
