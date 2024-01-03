@@ -1,8 +1,20 @@
-# React + Vite
+# contacts-management-app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Technology
+1. React js
+2. tailwindcss
+3. useQuery
+4. vite
+5. react-dom
+6. iconify/react
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Live : https://contacts-management-app-ten.vercel.app/
+
+## Database : MongoDb
+
+## How to Install and Run the Project for front-end
+
+1. yarn add 
+2. yarn dev
