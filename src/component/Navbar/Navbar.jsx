@@ -33,7 +33,7 @@ const Navbar = () => {
                             {menuItem}
                         </ul>
                     </div>
-                    
+
                     <div className="sm:hidden">
                         <button className="p-4 sm:hidden"
                             onClick={() => setIsMobileMenu(!isMobileMenu)}

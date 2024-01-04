@@ -21,7 +21,6 @@ const AllContacts = () => {
         }
     });
 
-
     if (isLoading) {
         return <progress className="progress w-56"></progress>
     }

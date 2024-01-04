@@ -93,7 +93,6 @@ const AllContactCard = ({ contact, refetch }) => {
                     modalData={updateContact}
                     closeModal={closeModal}
                 >
-
                 </UpdateModal>
             }
 
@@ -109,7 +108,6 @@ const AllContactCard = ({ contact, refetch }) => {
                     closeModal={closeModal}
 
                 >
-
                 </ConfirmationModal>
             }
         </div>
